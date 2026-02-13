@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>習慣チェッカー</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif; max-width: 980px; margin: 40px auto; padding: 0 20px; line-height: 1.7; }
+.hero { background: rgba(255,255,255,.75); border:1px solid rgba(0,0,0,.08); border-radius:18px; padding:20px; }
+h1 { margin: 0 0 6px; }
+.sub { color: rgba(0,0,0,.6); margin-top: 0; }
+.grid { display:grid; grid-template-columns: 1fr; gap: 12px; margin-top: 16px; }
+@media (min-width: 820px){ .grid { grid-template-columns: 1fr 1fr; } }
+.card { background:#fff; border:1px solid rgba(0,0,0,.08); border-radius:16px; padding:16px 18px; }
+.badge { display:inline-block; padding:6px 10px; border-radius:999px; background: rgba(0,0,0,.05); margin-right: 6px; margin-bottom: 6px; }
+a { color:#0a66ff; text-decoration:none; }
+a:hover { text-decoration:underline; }
+small { color: rgba(0,0,0,.55); }
+.btn { display:inline-block; padding:12px 14px; border-radius:12px; background:#111; color:#fff; text-decoration:none; font-weight:700; }
+.btn:hover { opacity: .9; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>習慣チェッカー</h1>
+  <p class="sub">月単位カレンダーで「チェックするだけ」。迷わず続けられる、シンプル習慣管理アプリ。</p>
+
+  <div style="margin-top:14px;">
+    <span class="badge">月切り替え（◀︎▶︎）</span>
+    <span class="badge">今日にジャンプ</span>
+    <span class="badge">1日1回通知</span>
+    <span class="badge">追加・編集（名前/アイコン）</span>
+    <span class="badge">プリセット追加</span>
+  </div>
+
+  <div style="margin-top:16px;">
+    <!-- App StoreのURLを後で差し替え -->
+    <a class="btn" href="#" target="_blank">App Storeで見る（準備中）</a>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>主な機能</h2>
+    <ul>
+      <li>月切り替え（◀︎▶︎）で前月・翌月へ移動</li>
+      <li>「今日」ボタンで当日の列にジャンプ</li>
+      <li>1日1回の通知リマインダー（時間のみ設定）</li>
+      <li>習慣の追加・編集（名前／アイコン）</li>
+      <li>おすすめプリセットから簡単に追加</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>こんな人におすすめ</h2>
+    <ul>
+      <li>まずは「見やすい表でチェックしたい」</li>
+      <li>続けたい習慣を、手軽に管理したい</li>
+      <li>通知は最小限でいい（1日1回で十分）</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>プライバシー</h2>
+    <p>データは端末内に保存されます。外部サーバーへ送信しません。</p>
+    <p>広告表示のため、Google AdMob を利用する場合があります。</p>
+    <p><a href="./privacy.html">プライバシーポリシー</a></p>
+  </div>
+
+  <div class="card">
+    <h2>サポート</h2>
+    <p>不具合報告・ご要望はこちらから。</p>
+    <p><a href="./support.html">サポートページ</a></p>
+    <p><small>メール：wdvqz22059@yahoo.co.jp</small></p>
+  </div>
+</div>
+
+<p style="margin-top:18px;">
+  <small>© 2026 Mahiro Ichikawa</small>
+</p>
+
+</body>
+</html>
